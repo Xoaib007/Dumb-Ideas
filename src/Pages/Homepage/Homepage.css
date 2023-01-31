@@ -1,3 +1,5 @@
 bgbanner {
-    background-image: url('https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/official/en_us/company/2021/imperfect-by-design/header-darker.jpg.img.fullhd.medium.jpg');
+    /* background-image: url('../../Assets/1000_F_222102223_rTf36xg0GGGCewL8YLZKZvJ85PIqID80.jpg'); */
+    background-color: black;
+    background-repeat: no-repeat;
 }
