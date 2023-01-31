@@ -1,8 +1,9 @@
 import React from 'react';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-[#b3d4fc]">
+        <div className="navbar bgnav">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
