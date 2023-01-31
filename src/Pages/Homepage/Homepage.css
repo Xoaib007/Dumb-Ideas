@@ -1,5 +1,7 @@
-bgbanner {
-    /* background-image: url('../../Assets/1000_F_222102223_rTf36xg0GGGCewL8YLZKZvJ85PIqID80.jpg'); */
-    background-color: black;
+.bgbanner {
+    background-image: url('../../Assets/header-darker.jpg.img.fullhd.medium.jpg');
+    /* background-size: 80%; */
+    /* width: 100%;
+    height: 80%; */
     background-repeat: no-repeat;
 }
