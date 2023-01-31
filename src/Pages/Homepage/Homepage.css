@@ -1,7 +1,5 @@
 .bgbanner {
     background-image: url('../../Assets/header-darker.jpg.img.fullhd.medium.jpg');
-    /* background-size: 80%; */
-    /* width: 100%;
-    height: 80%; */
+    background-size: 100%;
     background-repeat: no-repeat;
 }
