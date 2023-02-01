@@ -2,13 +2,17 @@
     {
         "author": "Elon Mask",
         "authorId": "",
-        "authorImage": "",
+        "authorImage": "https://fotografias.lasexta.com/clipping/cmsimages02/2022/05/03/6F9C82A4-0FA4-40F9-BE2F-87F8DBBC1224/elon-musk-met-gala_104.jpg?crop=1407,1407,x0,y0&width=1200&height=1200&optimize=low&format=webply",
         "publishedDate": "01 feb 2023",
         "publishedTime": "17:00",
-        "topic": ["Business", "Trending"],
+        "topic": ["Business", "Trending", "Space"],
         "title": "why SpaceX is more efficient than NASA",
-        "coverImage": "",
-        "paragraph": ["SpaceX is a private company under the direction of one person—Elon Musk—that currently builds and launches two rockets: the Falcon 9 and Falcon Heavy. The booster stages of these rockets usually return to Earth for refurbishment, which saves money and helps SpaceX undercut competitors’ prices.SpaceX also builds and flies Dragon, a space capsule that can carry crew and cargo to the International Space Station. The company eventually plans to fly private astronauts on Dragon.", ""],
-        "images": ["https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/spacex-nasa-demo-2-liftoff.jpg.webp", ""]
+        "coverImage": "https://planetary.s3.amazonaws.com/web/assets/hero/starship-hero-image.jpg",
+        "paragraph": ["SpaceX is a private company under the direction of one person—Elon Musk—that currently builds and launches two rockets: the Falcon 9 and Falcon Heavy. The booster stages of these rockets usually return to Earth for refurbishment, which saves money and helps SpaceX undercut competitors’ prices.SpaceX also builds and flies Dragon, a space capsule that can carry crew and cargo to the International Space Station. The company eventually plans to fly private astronauts on Dragon.", 
+        "Perceptions that SpaceX and NASA are competing with one another usually relates to NASA’s Artemis program. In 2004, President George W. Bush announced a plan to retire the Space Shuttles and return humans to the surface of the Moon. This led to the creation of a crew capsule called Orion and a rocket that ultimately evolved into the Space Launch System, or SLS. Orion and SLS are built by aerospace companies Lockheed Martin and Boeing, which in turn use their own private suppliers and subcontractors. The vehicles are assembled at NASA centers under NASA guidance, and the final product is owned by NASA. The programs generate tens of thousands of well-paying jobs in locations where they are built, and therefore enjoy strong political support from their local Congressional representatives.",
+        "NASA did not have a replacement ready when the Space Shuttle program ended in 2011. Despite having 7 years to prepare, the agency never received the funding necessary to finish construction of the ISS and develop a new human-capable spacecraft and rocket system, all while continuing to fly the Shuttle—which by the end of its lifetime cost $3.5 billion per year.Anticipating the need for an alternative to send cargo and crews to the ISS, NASA turned to the aerospace industry with a novel proposal: rather than paying companies to build NASA-owned vehicles at NASA-owned facilities, what if NASA paid companies to build their own vehicles, and then bought flights on those vehicles?",
+        "In 2008, the agency signed contracts with SpaceX and Orbital Sciences Corporation—now Northrop Grumman—to build and fly their own cargo vehicles to the ISS. The plan worked: not even a year after the Shuttle program ended, SpaceX's Dragon spacecraft made the first commercial berthing with the ISS. In 2020, SpaceX became the first private company to send NASA astronauts to the ISS.Without SpaceX, the only U.S. company currently capable of carrying cargo to the ISS would currently be Northrop Grumman, and NASA would still be reliant on the Russian Soyuz for crew transportation."],
+        "images": ["https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/spacex-nasa-demo-2-liftoff.jpg.webp", 
+        "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x758_crop_center-center_82_line/nasa-vab-at-sunrise.jpg.webp", ""]
     }
 ]
