@@ -1,13 +1,12 @@
 [
     {
         "author": "Elon Mask",
-        "authorid": "",
+        "authorId": "",
         "publishedDate": "01 feb 2023",
         "publishedTime": "17:00",
         "topic": ["Business", "Trending"],
         "coverImage": "",
         "paragraph": [],
-        "images": [],
-        ""
+        "images": []
     }
 ]
