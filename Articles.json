@@ -8,7 +8,7 @@
         "topic": ["Business", "Trending"],
         "title": "why SpaceX is more efficient than NASA",
         "coverImage": "",
-        "paragraph": [],
-        "images": []
+        "paragraph": ["SpaceX is a private company under the direction of one person—Elon Musk—that currently builds and launches two rockets: the Falcon 9 and Falcon Heavy. The booster stages of these rockets usually return to Earth for refurbishment, which saves money and helps SpaceX undercut competitors’ prices.SpaceX also builds and flies Dragon, a space capsule that can carry crew and cargo to the International Space Station. The company eventually plans to fly private astronauts on Dragon.", ""],
+        "images": ["https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/spacex-nasa-demo-2-liftoff.jpg.webp", ""]
     }
 ]
