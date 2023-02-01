@@ -1,7 +1,6 @@
 .bgbanner {
     background-image:linear-gradient(45deg,
-    rgba(56, 56, 56, 0.75),
-    rgba(255, 255, 255, 0)),
+    
     url('../../Assets/header-darker.jpg.img.fullhd.medium.jpg');
     background-position: top;
     background-size: 100%;
