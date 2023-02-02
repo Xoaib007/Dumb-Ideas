@@ -11,8 +11,13 @@ const ArticlesStack = () => {
     return (
         <div>
             {
-                articles?.map(article=>
-                <p>{article.author}</p>
+                articles?.map((article, i)=>
+                <div key={i} className='border-8'>
+                    <p>{article.title}</p>
+                    <p>{article.author}</p>
+                    <p>{article.publishedDate}</p>
+                    <p>{article.shortDescription}</p>
+                </div>
                 )
             }
         </div>
