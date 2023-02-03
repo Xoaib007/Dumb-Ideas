@@ -17,9 +17,11 @@ const ArticlesStack = () => {
 
                         <div className='flex mb-3'>
                             {
-                                article.topic.map((topic =>
-                                    <p className='mr-4 hover:text-blue-700'>{topic}</p>
-                                ))
+                                article.topic.map((topic, i) =>
+                                    <Link to={`/topic/${topic}`} key={i}>
+                                        <p className='mr-4 hover:text-blue-700'>{topic}</p>
+                                    </Link>
+                                )
                             }
                         </div>
                         <Link to={`/article/${article.id}`}>
