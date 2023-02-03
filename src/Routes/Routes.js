@@ -1,4 +1,3 @@
-import Main from "../Layouts/Main";
 import ArticlePage from "../Pages/ArticlePage/ArticlePage";
 import Homepage from "../Pages/Homepage/Homepage";
 
