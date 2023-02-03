@@ -13,15 +13,23 @@ const ArticlesStack = () => {
         <div>
             {
                 articles?.map((article, i) =>
-                    <div key={i} className='border-b-2 border-gray-800 mx-40 my-20'>
+                    <div key={i} className='border-b-2 border-gray-800 mx-40 my-20 py-10'>
+
+                        <div className='flex mb-3'>
+                            {
+                                article.topic.map((topic =>
+                                    <p className='mr-4 hover:text-blue-700'>{topic}</p>
+                                ))
+                            }
+                        </div>
                         <Link to={`/article/${article.id}`}>
-                            <p className='text-3xl font-bold'>{article.title}</p>
-                            <div className='flex'>
-                                <p>{article.author}</p>
-                                <p>{article.publishedDate}</p>
-                            </div>
-                            <p>{article.shortDescription}</p>
+                            <p className='text-3xl font-bold mb-5 text-gray-500 hover:text-black'>{article.title}</p>
                         </Link>
+                        <div className='flex mb-4'>
+                            <p className='text-gray-600 mr-2'>by <span className=' underline text-blue-700 mr-1'>{article.author}</span>,</p>
+                            <p className='text-gray-600 '>{article.publishedDate}</p>
+                        </div>
+                        <p>{article.shortDescription}</p>
                     </div>
                 )
             }
