@@ -26,7 +26,9 @@ const ArticlesStack = () => {
                             <p className='text-3xl font-bold mb-5 text-gray-500 hover:text-black'>{article.title}</p>
                         </Link>
                         <div className='flex mb-4'>
-                            <p className='text-gray-600 mr-2'>by <span className=' underline text-blue-700 mr-1'>{article.author}</span>,</p>
+                            <Link to={`/user/${article.authorId}`}>
+                                <p className='text-gray-600 mr-2'>by <span className=' underline text-blue-700 mr-1 hover:text-blue-500'>{article.author}</span>,</p>
+                            </Link>
                             <p className='text-gray-600 '>{article.publishedDate}</p>
                         </div>
                         <p>{article.shortDescription}</p>
