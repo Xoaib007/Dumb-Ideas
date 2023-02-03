@@ -1,4 +1,5 @@
 import Main from "../Layouts/Main";
+import ArticlePage from "../Pages/ArticlePage/ArticlePage";
 import Homepage from "../Pages/Homepage/Homepage";
 
 
@@ -12,7 +13,11 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element:<Homepage/>
-            }
+            },
+            {
+                path: '/article/:id',
+                element:<ArticlePage/>
+            },
         ]
     }
 ])
