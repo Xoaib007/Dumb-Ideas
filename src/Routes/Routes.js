@@ -1,5 +1,3 @@
-import AuthenticationPage from "../Layouts/AuthenticationPage";
-import Main from "../Layouts/Main";
 import ArticlePage from "../Pages/ArticlePage/ArticlePage";
 import LogIn from "../Pages/Authetication/LogIn";
 import SignUp from "../Pages/Authetication/SignUp";
@@ -14,28 +12,15 @@ export const router = createBrowserRouter([
         element:<Homepage/>
     },
     {
-        path: '/',
-        element: <Main/>,
-        children: [
-            {
-                path: '/article/:id',
-                element:<ArticlePage/>
-            },
-        ]
+        path: '/article/:id',
+        element:<ArticlePage/>
     },
     {
-        path: '/user',
-        element: <AuthenticationPage/>,
-        // errorElement:<ErrorPage/>,
-        children:[
-            {
-                path:'/user/signup',
-                element:<SignUp/>
-            },
-            {
-                path:'/user/login',
-                element:<LogIn/>
-            }
-        ]
+        path:'/user/signup',
+        element:<SignUp/>
     },
+    {
+        path:'/user/login',
+        element:<LogIn/>
+    }
 ])
