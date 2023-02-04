@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightToBracket, faArrowRightFromBracket, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightToBracket, faArrowRightFromBracket, faUser, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
-    const [user, setUser] = useState();
+    const [user, setUser] = useState(null);
 
     return (
         <div className="navbar bg-transparent pt-5 px-10">
@@ -55,8 +55,9 @@ const Navbar = () => {
                         <Link to='/user/signup' className="btn bg-black border-none text-white hover:bg-white hover:text-black rounded-none">Get started<FontAwesomeIcon icon={faArrowRightToBracket} className='w-4 h-4 ml-2'></FontAwesomeIcon></Link>
                     :
                         <>
-                            <Link to='/dash' className="p-2 w-18 h-18 rounded-full border-4 border-white mr-3"><FontAwesomeIcon icon={faUser} className='w-5 h-5 text-white'></FontAwesomeIcon></Link>
-                            <button className="btn bg-black border-none text-white hover:bg-white hover:text-black rounded-none">Sign Out<FontAwesomeIcon icon={faArrowRightFromBracket} className='w-4 h-4 ml-2'></FontAwesomeIcon></button>
+                            <Link to='/dash' className="mr-8"><FontAwesomeIcon icon={faPenToSquare} className='w-8 h-8 text-white hover:w-9 hover:h-9'></FontAwesomeIcon></Link>
+
+                            <Link to='/dash' className="mr-8"><FontAwesomeIcon icon={faUser} className='w-8 h-8 hover:w-9 hover:h-9 text-white'></FontAwesomeIcon></Link>
                         </>
                 }
             </div>
