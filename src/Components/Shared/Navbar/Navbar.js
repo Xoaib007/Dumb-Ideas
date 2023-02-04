@@ -26,7 +26,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to='/'>
-                    <p className=" ml-5 text-white font-bold text-2xl logo">Techy Blogs</p>
+                    <p className=" ml-5 text-white font-bold text-2xl logo">Dumb Thoughts...</p>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
