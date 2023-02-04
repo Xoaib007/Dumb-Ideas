@@ -19,5 +19,20 @@ export const router = createBrowserRouter([
                 element:<ArticlePage/>
             },
         ]
-    }
+    },
+    {
+        path: '/user',
+        element: <AuthenticationPage/>,
+        // errorElement:<ErrorPage/>,
+        children:[
+            {
+                path:'/user/signup',
+                element:<Signup/>
+            },
+            {
+                path:'/user/login',
+                element:<LogIn/>
+            }
+        ]
+    },
 ])
