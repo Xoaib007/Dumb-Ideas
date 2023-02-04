@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClipboard } from '@fortawesome/free-regular-svg-icons';
 import { faArrowRightToBracket, faArrowRightFromBracket, faUser } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -9,7 +8,7 @@ const Navbar = () => {
     const [user, setUser] = useState();
 
     return (
-        <div className="navbar bg-transparent pt-5">
+        <div className="navbar bg-transparent pt-5 px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
