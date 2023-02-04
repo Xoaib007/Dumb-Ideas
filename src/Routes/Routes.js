@@ -1,6 +1,6 @@
 import ArticlePage from "../Pages/ArticlePage/ArticlePage";
 import LogIn from "../Pages/Authetication/LogIn";
-import SignUp from "../Pages/Authetication/SignUp";
+import SignUp from "../Pages/Authetication/SignUp/SignUp";
 import Homepage from "../Pages/Homepage/Homepage";
 
 
