@@ -7,8 +7,6 @@ import './Navbar.css'
 const Navbar = () => {
     const [user, setUser] = useState(null);
 
-    setUser(null)
-
     const navItems = <>
         <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/'>Home</NavLink>
 
