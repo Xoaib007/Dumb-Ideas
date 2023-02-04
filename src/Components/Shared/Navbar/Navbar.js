@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightToBracket} from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
@@ -46,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <p className="btn">Get started</p>
+                <Link to='/user/signup' className="btn bg-black border-none text-white hover:bg-white hover:text-black rounded-none">Get started<FontAwesomeIcon icon={faArrowRightToBracket} className='w-4 h-4 ml-2'></FontAwesomeIcon></Link>
             </div>
         </div>
     );
