@@ -1,6 +1,8 @@
 import AuthenticationPage from "../Layouts/AuthenticationPage";
 import Main from "../Layouts/Main";
 import ArticlePage from "../Pages/ArticlePage/ArticlePage";
+import LogIn from "../Pages/Authetication/LogIn";
+import SignUp from "../Pages/Authetication/SignUp";
 import Homepage from "../Pages/Homepage/Homepage";
 
 
@@ -28,7 +30,7 @@ export const router = createBrowserRouter([
         children:[
             {
                 path:'/user/signup',
-                element:<Signup/>
+                element:<SignUp/>
             },
             {
                 path:'/user/login',
