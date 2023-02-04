@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -24,7 +25,9 @@ const Navbar = () => {
                         <li><p>Item 3</p></li>
                     </ul>
                 </div>
-                <p className="btn btn-ghost normal-case text-white font-bold text-2xl">Techy Blogs</p>
+                <Link to='/'>
+                    <p className="btn btn-ghost normal-case text-white font-bold text-2xl">Techy Blogs</p>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
