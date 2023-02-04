@@ -10,11 +10,9 @@ const Navbar = () => {
     const navItems = <>
         <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/'>Home</NavLink>
 
-        <NavLink activeClassName="active" to='/categories'  className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white'>Categories</NavLink>
+        <NavLink activeClassName="active" to='/categories'  className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white'>Trending</NavLink>
 
-        <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/blog'>Blog</NavLink>
-
-        <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/contact'>Contact Us</NavLink>
+        <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/blog'>Categories</NavLink>
         
         <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/about'>About</NavLink>
     </>

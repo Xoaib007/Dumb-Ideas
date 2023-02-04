@@ -10,3 +10,10 @@
 .logo {
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.active{
+    padding-bottom: 5px;
+    background-color: transparent;
+    border-bottom: 8px solid white;
+    border-radius: 0px;
+}

@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -32,6 +34,12 @@ const ArticlesStack = () => {
                                 <p className='text-gray-600 mr-2'>by <span className=' underline text-blue-700 mr-1 hover:text-blue-500'>{article.author}</span>,</p>
                             </Link>
                             <p className='text-gray-600 '>{article.publishedDate}</p>
+
+                            <div className='flex ml-12'>
+                                <p className='mr-8 text-gray-600 hover:text-black'><FontAwesomeIcon icon={ faThumbsUp }/> 0</p>
+                                <p className='text-gray-600 hover:text-black'><FontAwesomeIcon icon={ faThumbsDown }/> 0</p>
+                            </div>
+
                         </div>
                         <p>{article.shortDescription}</p>
                     </div>
