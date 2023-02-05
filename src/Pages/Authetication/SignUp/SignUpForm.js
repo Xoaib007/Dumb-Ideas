@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignUpForm = () => {
     return (
         <div class="min-h-screen bg-blue-400 pt-16">
-            <div class="bg-white p-16 mx-auto rounded shadow-2x1 w-1/2">
+            <div class="bg-white px-16 py-10 mx-auto rounded shadow-2x1 w-1/2">
                 <h2 class="text-3xl font-bold mb-10 text-gray-800">Create Your Account</h2>
 
                 <form class="space-y-5">
@@ -23,7 +24,7 @@ const SignUpForm = () => {
                     </div>
 
                     <div class="flex items-center">
-                        <input type="checkbox" id="agree"/>
+                        <input type="checkbox" id="agree" required/>
                             <label for="agree" class="ml-2 text-gray-700 text-sm">I agree to the terms and privacy.</label>
                     </div>
 
@@ -31,9 +32,10 @@ const SignUpForm = () => {
                         <button class="block w-full bg-yellow-400 hover:bg-yellow-300 p-4 rounded text-yellow-900 hover:text-yellow-800 transition duration-300">Sign Up</button>
                     </div>
                 </form>
+                
+                <p className='mt-4'>Already registered? <Link to='/user/login' className='text-blue-700 underline'>Sign in</Link></p>
             </div>
         </div>
-  
     );
 };
 
