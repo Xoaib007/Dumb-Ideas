@@ -5,7 +5,7 @@ import Navbar from '../Components/Shared/Navbar/Navbar';
 const AuthenticationPage = () => {
     return (
         <div>
-             <Navbar/>
+            <Navbar/>
             <Outlet/>
         </div>
     );
