@@ -1,5 +1,5 @@
 import ArticlePage from "../Pages/ArticlePage/ArticlePage";
-import LogIn from "../Pages/Authetication/LogIn";
+import LogIn from "../Pages/Authetication/LogIn/LogIn";
 import SignUp from "../Pages/Authetication/SignUp/SignUp";
 import Homepage from "../Pages/Homepage/Homepage";
 
