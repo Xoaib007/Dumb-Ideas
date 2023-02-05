@@ -33,7 +33,7 @@ const SignUpForm = () => {
                     </div>
                 </form>
                 
-                <p className='mt-4'>Already registered? <Link to='/user/login' className='text-blue-700 underline'>Sign in</Link></p>
+                <p className='mt-4'>Already registered? <Link to='/user/login' className='text-blue-700 underline'>Log in</Link></p>
             </div>
         </div>
     );
