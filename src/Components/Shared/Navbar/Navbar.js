@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState();
 
     const navItems = <>
         <NavLink activeClassName="active" className='text-2xl font-bold mx-5 pb-2 border-b-8 border-transparent text-white hover:border-white' to='/'>Home</NavLink>
@@ -43,9 +43,9 @@ const Navbar = () => {
                         <Link to='/user/signup' className="btn bg-black border-none text-white hover:bg-white hover:text-black rounded-none">Get started<FontAwesomeIcon icon={faArrowRightToBracket} className='w-4 h-4 ml-2'></FontAwesomeIcon></Link>
                     :
                         <>
-                            <Link to='/dash' className="mr-8"><FontAwesomeIcon icon={faPenToSquare} className='w-8 h-8 text-white hover:w-9 hover:h-9'></FontAwesomeIcon></Link>
+                            <Link to='/dash' className="mr-8 tooltip tooltip-bottom" data-tip="Write a blog"><FontAwesomeIcon icon={faPenToSquare} className='w-8 h-8 text-white hover:w-9 hover:h-9'></FontAwesomeIcon></Link>
 
-                            <Link to='/dash' className="mr-8"><FontAwesomeIcon icon={faUser} className='w-8 h-8 hover:w-9 hover:h-9 text-white'></FontAwesomeIcon></Link>
+                            <Link to='/dash' className="mr-8 tooltip tooltip-bottom" data-tip="Profile"><FontAwesomeIcon icon={faUser} className='w-8 h-8 hover:w-9 hover:h-9 text-white'></FontAwesomeIcon></Link>
                         </>
                 }
             </div>
