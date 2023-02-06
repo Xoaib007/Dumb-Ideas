@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 const ArticlesStack = () => {
     const [articles, setArticles] = useState([]);
 
-    // useEffect(() => {
-    //     fetch("Articles.json")
-    //         .then((res) => res.json())
-    //         .then((data) => setArticles(data));
+    useEffect(() => {
+        fetch("Articles.json")
+            .then((res) => res.json())
+            .then((data) => setArticles(data));
     }, []);
     return (
         <div>
