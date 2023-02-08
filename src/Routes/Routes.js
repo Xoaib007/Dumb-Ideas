@@ -8,8 +8,8 @@ const { createBrowserRouter } = require("react-router-dom");
 
 export const router = createBrowserRouter([
     {
-        path: '/',
-        element:<Homepage/>
+        // path: '/',
+        // element:<Homepage/>
     },
     {
         path: '/article/:id',
